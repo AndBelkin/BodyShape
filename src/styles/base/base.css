@@ -1,0 +1,49 @@
+:root {
+  --font-family-primary: "Roboto", sans-serif;
+  --font-family-accent: "Bebas Neue", sans-serif;
+  --color-white: #fafaf5;
+  --color-dark: #1f2a32;
+  --color-accent: #ffd479;
+}
+
+body {
+  font-family: var(--font-family-primary);
+  font-weight: 300;
+  color: var(--color-white);
+  background-color: var(--color-dark);
+}
+
+/* Elements */
+
+a {
+  color: var(--color-white);
+}
+
+/* Containers */
+
+.container {
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 1200px;
+  width: 100%;
+}
+
+/* Button */
+
+.button {
+  display: inline-block;
+  border-radius: 7px;
+  font-family: var(--font-family-accent);
+  font-weight: 700;
+  font-size: clamp(16px, 14.91px + 0.34vw, 19px);
+  letter-spacing: 0.26em;
+  background-color: var(--color-accent);
+  color: #000;
+  padding: clamp(9px, 5.73px + 1.02vw, 18px) clamp(22px, 12.91px + 2.84vw, 47px);
+  transition: all 0.3s ease-in;
+}
+
+.button:hover,
+.button:active {
+  background-color: #fcc54e;
+}

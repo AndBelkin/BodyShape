@@ -1,0 +1,39 @@
+.feedback-form {
+  max-width: 585px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.feedback-form label {
+  font-weight: 700;
+  color: #fff;
+}
+
+.feedback-form input {
+  font-family: var(--font-family-primary);
+  color: #fff;
+  font-weight: 300;
+  padding: 5px 0;
+  border-bottom: 1px solid #fff;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.feedback-form textarea {
+  resize: none;
+  outline: none;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-family: var(--font-family-primary);
+  color: #fff;
+  font-weight: 300;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.feedback-form .button {
+  width: max-content;
+}

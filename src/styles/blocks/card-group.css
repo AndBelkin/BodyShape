@@ -1,0 +1,21 @@
+.card-group {
+  transition: all 0.3s ease-in-out;
+}
+
+.card-group:hover {
+  transform: translateY(-5%);
+}
+
+.card-group-img {
+  margin-bottom: 25px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2);
+}
+.card-group-title {
+  font-family: var(--font-family-accent);
+  font-weight: 700;
+  font-size: clamp(18px, 8.91px + 2.84vw, 43px);
+  letter-spacing: 0.07em;
+  color: var(--color-accent);
+  text-transform: uppercase;
+}
